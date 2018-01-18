@@ -94,9 +94,9 @@ margin:2%;
 .skil{
     width:100%;
     text-align:right;
-    line-height:20px;
+    line-height:15px;
     color:#fff;
-	padding:2%;
+	margin:2%;
 }
 .html {width: 90%; background-color: #2D3580;}
 .css {width: 80%; background-color: #2D3580;}
