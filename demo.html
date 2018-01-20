@@ -2,137 +2,91 @@
 <html>
 <!-- Head -->
 <head>
-    <title>Resume Builder</title>
+    <title></title>
+    <link rel ="icon" href="images\12A61A0507.jpg">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/fa.css">
 </head>
 
-<!-- Body -->
+
 <body>
 <div class="col-1">
-    <div class="col-3" style="border:1px solid #ddd; box-shadow:3px 3px 3px #ddd; padding-bottom:5%" id="demo">
+    <div class="col-3" style="border:1px solid #ddd; box-shadow:3px 3px 3px #ddd; padding:1%" id="demo">
         <div class="img">
-        <img src="images/hanuman.png">
+        <img src="images/12A61A0507.jpg">
         <div class="img-name">
-        <h3>Hanuman Kumar</h3>
+        <h2>SwamyKankipati</h2>
     </div>
 </div>
 <script>
 
-    /* Profile Data */
-var hanuman = { 
-    "role" : "<b>Trainee & Developer</b>", 
-    "email":"hanumankumar035@gmail.com",
+    
+var swami = { 
+    "role" : "Trainercum&Developer", 
+    "email":"kaswami507@gmail.com",
     "location" : "Visakhapatnam, Andhra Pradesh",
-    "mobile":"(+91) 8374614212",
+    "mobile":"(+91) 9014117507",
 };
 
-/* Experience */
 
-var exp={
-    "role" : ["Trainee & Developer", "Full-stack Web developer","Web developer"],
-    "date" : ["Current working","Apr-2016 to Nov-2017","Jul-2015 to Mar-2016",],
-    "company" : ["APSSDC","BuenaSoft","Mobly Technologies",],
-    "location" :["Tirupthi, Andhra Pradesh","Visakhapatnam, Andhra Pradesh","Hyderabad, Telangana"],
-    "description" : ["Joined on 4<sup>th</sup> December of last year. Now I'm working here as PWA trainer cum developer. Its really wonderful opportunity to leran new approch towards Web designing and developing.","I worked at BuenaSoft as a full-stack web developer. had to work on both front-end as well as back-end technologies, Developed more than 12 projects there.", "I worked at mobly technologies as a Web developer. Focussed only on back-end technologies and content management systems like Magento, Wordpress, Opencart. Developed morethan 7 projects using content management systems."]
+
+
+var ed={
+"degree" : ["B-Tech(C.S.E)","Inter","SSE"],
+"NameofColl" : ["SriPrakesh College of Engineering", "S.R.G.J.College","A.D.J.R.Z.P.High School"],
+"location" : ["Tuni, Andhra Pradesh","Tuni, Andhra Pradesh","Satyavaram, Andhra Pradesh"]
 }
 
-/* Educational Qualifications */
-var edu={
-"degree" : ["B-Tech(C.S.E)","Diploma(C.S.E)","SSE"],
-"institute" : ["Raghu Engineering College", "Govt.Polytechnic","T.P.M High School"],
-"location" : ["Visakhapatnam, Andhra Pradesh","Srikakulam, Andhra Pradesh","Srikakulam, Andhra Pradesh"]
-}
-
-var ach={
-    "desc" : ["Completed Foundation Program Conducted By <b>Infosys</b> at Raghu Engineering College", "Got 2<sup>nd</sup> Price for web developing contest conducted by millinium software solutions"]
-}
-
-for (x in hanuman) {
-    document.getElementById("demo").innerHTML += "<p> <center>" +hanuman[x]+"</center><p>";
+ 
+for (x in swami) {
+    document.getElementById("demo").innerHTML += "<p>" +swami[x]+"<p>";
 }
 </script>
+<hr>
 
-<center>
- <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a> &nbsp; <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp; <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a> &nbsp; <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a> &nbsp; <a href="#"><i class="fa fa-dribbble"> </i></a> <br> <hr>
-</center>
-<!-- Skills -->
-<h3 style="border:1px solid #ddd; padding:1%"> Skills </h3>
-<h3>Html</h3>
-<div class="scontainer">
-  <div class="skil html">90%</div>
-</div> <br>
-<h3>Css</h3>
-<div class="scontainer">
-  <div class="skil css">80%</div>
-</div> <br>
-<h3>Java script</h3>
-<div class="scontainer">
-  <div class="skil js">70%</div>
-</div> <br>
 
-<h3 style="border:1px solid #ddd; padding:1%"> Languages </h3>
-<h3>Telugu</h3>
-<div class="scontainer">
-  <div class="skil telugu">100%</div>
-</div> <br>
-<h3>English</h3>
-<div class="scontainer">
-  <div class="skil js">70%</div>
-</div> <br>
-<h3>Hindi</h3>
-<div class="scontainer">
-  <div class="skil hindi">30%</div>
-</div> <br>
+<h2 id="pp"> Skills </h2>
+<h3>HTML</h3>
+
+<h3>CSS</h3>
+
+<h3>JAVASCRIPT</h3>
+
 </div>
-
-<!-- Experience -->
-<div class="col-4" style="box-shadow:3px 3px 3px #ddd; margin-left: 2%">
-    <h2 style="border:1px solid #ddd"> Experience </h2>
-    <div id="exp" class="exp">
-        <script>
-            for(y in exp.role){
-    document.getElementById('exp').innerHTML+="<br><b style='color:#2D3580'><i class='fa fa-briefcase'></i> &nbsp;"+exp.role[y]+"</u></b><br>";
-    if(exp.date[y]=="Current working"){
-        document.getElementById('exp').innerHTML+="<font style='color:green; font-weight:600'><i class='fa fa-calendar'></i> &nbsp;"+exp.date[y]+"</font><br>";
-    } else {
-    document.getElementById('exp').innerHTML+="<font style='font-weight:600'> <i class='fa fa-calendar'></i> &nbsp;"+exp.date[y]+"</font><br>";
-}
-    document.getElementById('exp').innerHTML+="<b><i class='fa fa-home'></i> &nbsp;"+exp.company[y]+"</b><br>";
-    document.getElementById('exp').innerHTML+="<i class='fa fa-map-marker'></i> &nbsp;"+exp.location[y]+"<br><br>"; 
-
-    document.getElementById('exp').innerHTML+=exp.description[y]+"<br><br><br>";
-            }
-        </script>
-    </div>
-</div>
-
-<!-- Educational Qualifications-->
-<div class="col-4" style="box-shadow:3px 3px 3px #ddd; margin-left: 2%">
-    <h2> Educational Qualifications </h2>
-    <div id="edu" class="exp">
-        <script>
-            for(i in edu.degree){
-    document.getElementById('edu').innerHTML+="<b> <i class='fa fa-graduation-cap'></i> &nbsp;"+edu.degree[i]+"</b><br>";
-    document.getElementById('edu').innerHTML+="<i class='fa fa-institution'></i> &nbsp;"+edu.institute[i]+"<br>";
-    document.getElementById('edu').innerHTML+="<i class='fa fa-map-marker'></i> &nbsp;"+edu.location[i]+"<br><br>";  
-            }
-        </script>
-    </div>
-</div>
+<div>
+    
 
 <div class="col-4" style="box-shadow:3px 3px 3px #ddd; margin-left: 2%">
-    <h2> Achievements </h2>
-    <div id="ach" class="exp">
+    <h1>Qualifications </h1>
+    <div id="ed">
         <script>
-            for(j in ach.desc){
-    document.getElementById('ach').innerHTML+="<p> <i class='fa fa-send'></i> &nbsp;"+ach.desc[j]+"</p>";
+            for(i in ed.degree){
+    document.getElementById('ed').innerHTML+="<b>"+ed.degree[i]+"</b><br>";
+    document.getElementById('ed').innerHTML+=ed.NameofColl[i]+"<br>";
+    document.getElementById('ed').innerHTML+=ed.location[i]+"<br><br>";  
             }
         </script>
-    </div>
+        <h1>Achievements</h1>
+       <h4> GotcertifiedinNationalSocialService(NSS)</h4>
+       <h4>Gotcertified by APSSDC(AutomaticTimeTableGeneration)</h4>
+    </div></div>
+
+<div class="col-4" style="box-shadow:3px 3px 3px #ddd; margin-left: 2%">
+ <h1>Personal Details</h1>
+ <p>Father’sName :GangaRao<br>
+Mother’sName :AnanthaLaksmi<br>
+Nationality : Indian<br>
+Date of Birth :17-May-1995<br>
+Gender : Male<br>
+Knowing Languages : English,Telugu<br>
+Permanent Address : Ramalayastreet<br>
+Village:Masahebpeta<br>
+Mandal:Payakaraopeta<br>
+Dist:Visakha,
+ State:A.P.531127<br>
+</p>
 </div>
-</div>
+   
+
 </body>
 </html>
