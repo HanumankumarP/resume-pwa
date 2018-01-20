@@ -1,0 +1,66 @@
+﻿{
+  "basics": {
+    "name": "Hanuman Kumar",
+    "dob":"(30<sup>th</sup> August 1994)",
+    "role": "<b>Trainee & Developer (PWA)</b>",
+    "location" : "Visakhapatnam, AndhraPradesh",
+    "email": "<b>hanumankumar.p @apssdc.in</b>",
+    "phone": "(+91) 8374614212",
+    
+    "skills":{
+      "Operatingsystem":"OperatingSystem:Windows XP,7,8,10, Linux.",
+      "lang":"Programming Languages:C, Java, PHP.",
+      "web":"WebDevelopment:HTML,CSS,Javascript."
+    },
+    "experience":{
+      "currole":"Trainee & Developer (PWA)",
+      "curdate": "Currently working",
+      "curdept" :"APSSDC",
+      "curlocation":"Tirupathi, AndhraPradesh",
+      "curdesc":"Joined on 4th December of last year. Now I'm working here as PWA( Progressive Web Apps ) trainee cum developer. It is really a wonderful opportunity to leran a new approch towards Web-designing and developing.",
+
+      "frole":"Full-stack developer",
+      "fdate": "Jul-2015 to Mar-2016",
+      "fdept" :"Mobly Technologies",
+      "flocation":"Hyderabad, AndhraPradesh",
+      "fdesc":"I worked at mobly technologies as a Web developer. Focussed only on back-end technologies and content management systems like Magento, Wordpress, Opencart. Developed morethan 7 projects using content management systems.",
+
+      "lrole":"Web developer",
+      "ldate": "Apr-2016 to Nov-2017",
+      "ldept" :"BuenaSoftech.pvt.ltd",
+      "llocation":"Visakhapatnam, AndhraPradesh",
+      "ldesc":"I worked at BuenaSoft as a full-stack web developer, I had to work on both front-end as well as back-end technologies, for back-end i was using PHP with codeigniter framework Developed more than 12 projects there."
+      },
+    "education":{
+      "degree" : "B-Tech(Computer Science & Engineering) - 2012-15",
+      "college": "Raghu Engineering College",
+      "area":"Visakhapatnam, Andhra Pradesh",
+
+      "degre":"Diploma in Computer Engineering (DCME) - 2009-12",
+      "colleg":"Govt.Polytechnic Collge",
+      "loc":"Srikakulam, Andhra Pradesh",
+
+      "school":"S.S.E - 2009",
+      "sname":"T.P.M High School",
+      "sloc":"Srikakulam, Andhra Pradesh"
+
+    },
+  
+    "achievements":
+    {
+     "ach1":  "Completed Foundation program conducted by <b>infosys</b> at Raghu Engineering College-Visakhapatnam",
+     "ach2": "Got 2<sup>nd</sup> Price for Web designing and development contest conducted by Millinium Software Solutions.",
+     "ach3":"Participated various coding contests",
+     "ach4":"Completed Trail-Head Program Conducted by <b>Sales-force</b>",
+     "ach5":"Participated Blogging & Ethical hacking Program Conducted by <b>D3 Labs</b>"
+    },
+    "Declaration": 
+    {
+     "dec": "I hereby certify that all the above information is correct to the best of my knowledge and belief.  " 
+    }
+  
+  
+  
+
+    }
+  }
