@@ -1,6 +1,6 @@
 
 
-.sdc{
+.flex{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -8,7 +8,7 @@
 	padding:0.2%;
 	margin:1%;
 }
-.sdc>div{
+.flex>div{
 	padding: 0.1%;
     margin:1%;
 }
