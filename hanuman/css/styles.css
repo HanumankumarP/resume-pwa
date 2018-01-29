@@ -123,6 +123,7 @@ text-align:left;
 [class*="col-"]{
     width:100%;
     font-size:20px;
+	p{ font-size:20px; }
 }
 }
 
