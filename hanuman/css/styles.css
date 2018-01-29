@@ -125,6 +125,24 @@ text-align:left;
     font-size:20px;
 	p{ font-size:22px; }
 	.exp{font-size:22px;}
+	.scontainer{
+    width:95%;
+    background:#ddd;
+    border-radius:20px;
+
+}
+.skil{
+    width:100%;
+    text-align:right;
+    line-height:25px;
+    color:#fff;
+}
+
+.html {width: 90%; background-color: #247F20; border-radius: 20px;}
+.css {width: 80%; background-color: #247F20; border-radius: 20px;}
+.js {width: 70%; background-color: #247F20; border-radius: 20px;}
+.hindi {width: 30%; background-color: #247F20; border-radius: 20px;}
+.telugu{width:100%; background:#247F20; border-radius: 20px;}
 }
 }
 
