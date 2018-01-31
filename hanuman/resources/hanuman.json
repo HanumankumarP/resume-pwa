@@ -1,0 +1,100 @@
+﻿{
+  "basics": {
+    "name": "Hanuman Kumar",
+
+    "profile":[{
+	"dob":"(30<sup>th</sup> August 1994)",
+    "role": "<b>Trainee & Developer (PWA)</b>",
+    "location" : "Visakhapatnam, AndhraPradesh",
+    "email": "hanumankumar.p @apssdc.in",
+    "phone": "(+91) 8374614212"
+    }
+
+    ],
+    
+    "skills":{
+      "Operatingsystem":"OperatingSystem:Windows XP,7,8,10, Linux.",
+      "lang":"Programming Languages:C, Java, PHP.",
+      "web":"WebDevelopment:HTML,CSS,Javascript."
+    },
+    
+	"curex":[
+	{
+	"crole":"Trainer & Developer",
+	"cdate":"Current working",
+	"cdept":"APSSDC",
+	"cloc":"Tirupathi, Andhra Pradesh",
+	"cdesc":"Joined on 4th December of last year. Now I'm working here as PWA( Progressive Web Apps ) trainee cum developer. It is really a wonderful opportunity to leran a new approch towards Web-designing and developing."
+	}
+	],
+	
+    "experience":[
+	{
+      "role":"Full-stack Developer",
+      "date": "Apr-2016 to Nov-2017",
+      "dept" :"BuenaSoftech.pvt.ltd",
+      "location":"Visakhapatnam, AndhraPradesh",
+      "desc":"I worked at BuenaSoft as a full-stack web developer, I had to work on both front-end as well as back-end technologies, for back-end i was using PHP with codeigniter framework Developed more than 12 projects there."
+	  },
+	  {
+	  "role":"Web Developer",
+      "date": "Jul-2015 to Mar-2016",
+      "dept" :"Mobly Technologies",
+      "location":"Hyderabad, AndhraPradesh",
+      "desc":"I worked at mobly technologies as a Web developer. Focussed only on back-end technologies and content management systems like Magento, Wordpress, Opencart. Developed morethan 7 projects using content management systems."
+	  }
+	  ],
+	  "new":[
+	  {
+	  "role":"web Developer",
+	  "company": "Something",
+	  "startDate" : "April 2015",
+	  "endDate":"march 2016"
+	  },
+	  {
+	   "role":"web Designer",
+	  "company": "Something_new",
+	  "startDate" : "April 2016",
+	  "endDate":"march 2017"
+	  }
+	  ],
+	  
+	  
+    "education":[
+	{
+	"degree":"B-Tech(Computer Science & Engineering) - 2012-15",
+	"college" : "Raghu Engineering College",
+	"location" : "Visakhapatnam, AndhraPradesh"
+      },
+	  {
+	"degree":"DCME(Diploma in Computer Engineering) - 2009-12",
+	"college" : "Govt.Polytechnic college",
+	"location" : "Srikakulam, AndhraPradesh"
+	},
+	{
+	"degree":"S.S.C - 2009",
+	"college" : "T.P.M High School",
+	"location" : "Srikakulam, AndhraPradesh"
+	}
+	  ],
+	  
+	  
+  
+    "achievements":[
+	{ "achievement":  "Completed Foundation program conducted by <b>infosys</b> at Raghu Engineering College-Visakhapatnam" },
+	{ "achievement": "Got 2<sup>nd</sup> Price for Web designing and development contest conducted by Millinium Software Solutions." },
+	{ "achievement":"Participated various coding contests" },
+	{ "achievement":"Completed Trail-Head Program Conducted by <b>Sales-force</b>" },
+    { "achievement":"Participated Blogging & Ethical hacking Program Conducted by <b>D3 Labs</b>" }
+	],
+    
+	"Declaration": 
+    {
+     "dec": "I hereby certify that all the above information is correct to the best of my knowledge and belief.  " 
+    }
+  
+  
+  
+
+    }
+  }
