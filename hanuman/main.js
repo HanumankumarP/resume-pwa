@@ -47,7 +47,8 @@
 
 	function education(edu){
 		var j;
-		var nums = document.getElementById("list");
+		//var nums = document.getElementById("list");
+		var nums = document.querySelector("#list");
 		var listItem = nums.getElementsByTagName("li");
 		for(j=0; j<edu.length; j++){
 			var output="<p style='font-weight:550'>" + edu[j].degree + "</p>" +
