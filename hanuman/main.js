@@ -19,11 +19,7 @@
 
     name(data.basics.name);
     
-	/*currole(data.basics.curex.crole);
-    curdate(data.basics.curex.cdate);
-    curdept(data.basics.curex.cdept);
-    curlocation(data.basics.curex.cloc);
-    curdesc(data.basics.curex.cdesc);*/
+
 	
 	education(data.basics.education);
 
@@ -39,15 +35,6 @@
 
     function name (name) { document.getElementById("myname").innerHTML=name; }
 
-    /*function currole(currole) { document.getElementById("crole").innerHTML=currole;}
-
-    function curdate(curdate) { document.getElementById("cdate").innerHTML=curdate;}
-
-    function curdept(curdept) { document.getElementById("cdept").innerHTML=curdept; }
-
-    function curlocation(curlocation) { document.getElementById("clocation").innerHTML=curlocation; }
-
-    function curdesc(desc){ document.getElementById("cdesc").innerHTML=desc; }*/
 	
 
 	
