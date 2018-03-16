@@ -26,7 +26,7 @@ reject(new Error('error'));
 })
 }
 
-  var loaded_file=loadJSON("resources/hanuman.json"){
+  var loaded_file=loadJSON("resources/hanuman.json");
 //     let data = JSON.parse(text);
 	  loaded_file.then(data=>{
     name(data.basics.name);
@@ -36,8 +36,7 @@ reject(new Error('error'));
 	profile(data.basics.profile);
 	current_working(data.basics.curex);
 	skills(data.skills);
- })
-}
+ });
 
     function name (name) { document.getElementById("myname").innerHTML=name; }
 	function education(edu){
