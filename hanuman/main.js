@@ -1,21 +1,34 @@
 
-(function() {
-	var i;
+// (function() {
+// 	var i;
 
-  function loadJSON(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
-      if (rawFile.readyState === 4 && rawFile.status == "200") {
-        callback(rawFile.responseText);
-      }
-    }
-    rawFile.send(null);
-  }
+//   function loadJSON(file, callback) {
+//     var rawFile = new XMLHttpRequest();
+//     rawFile.overrideMimeType("application/json");
+//     rawFile.open("GET", file, true);
+//     rawFile.onreadystatechange = function() {
+//       if (rawFile.readyState === 4 && rawFile.status == "200") {
+//         callback(rawFile.responseText);
+//       }
+//     }
+//     rawFile.send(null);
+//   }
 
-  loadJSON("resources/hanuman.json", function(text){
-    let data = JSON.parse(text);
+function loadJSON(file){
+return new Promise((resolve,reject)=>{
+return fetch(file).then(response=>{
+if(response.ok){
+resolve(response.json());
+} else {
+reject(new Error('error'));
+}
+})
+})
+}
+
+  var loaded_file=loadJSON("resources/hanuman.json"){
+//     let data = JSON.parse(text);
+	  loaded_file.then(data=>{
     name(data.basics.name);
     education(data.basics.education);
     achievement(data.basics.achievements);
@@ -23,7 +36,8 @@
 	profile(data.basics.profile);
 	current_working(data.basics.curex);
 	skills(data.skills);
-});
+ })
+}
 
     function name (name) { document.getElementById("myname").innerHTML=name; }
 	function education(edu){
@@ -103,4 +117,4 @@
 	}
 
 
-})();
+// })();
