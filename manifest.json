@@ -1,0 +1,9 @@
+{
+  "name": "Resume",
+  "short_name": "My Resume Builder",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}
