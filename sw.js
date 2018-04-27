@@ -6,6 +6,6 @@ return cache.addAll([
 'hanuman/hanuman.html',
 'hanuman/main.js'
 ]);
-});
-)
+})
+);
 });
