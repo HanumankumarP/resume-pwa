@@ -19,7 +19,7 @@
                     <p class="title" style="text-align:center"><b>Trainer cum Developer</b></p>
                     <b>(PWA)</b> <br>
                    
-                    <a href="hanuman/hanuman.html"><button style="background:#247F20">View Profile</button></a>
+                    <a href="hanuman/hanuman.html"><button style="background:#247F20" onclick="play()">View Profile</button></a>
                 </center>
                 </div>
       
@@ -30,7 +30,7 @@
                     <p class="title" style="text-align:center"><b>Trainer cum Developer</b></p>
                     <b>(PWA)</b> <br>
                    
-                    <a href="demo.html"><button>View Profile</button></a>
+                    <a href="demo.html"><button onclick="play()">View Profile</button></a>
                 </center>
                 </div>
     		
@@ -38,6 +38,7 @@
     		<div></div>
     	</div>
     </div>
+ <audio id="audio" src="err.mp3" ></audio>
  <script type="text/javascript">
   if('serviceWorker' in navigator){
   navigator.serviceWorker.register('sw.js', {scope:'./'}).then(reg=>{
@@ -47,6 +48,11 @@
   });
   } else {
   console.log('sorry the browser does not supports service worker');
+  }
+  
+  function play(){
+  var audio=document.getElementById("audio");
+   audio.play();
   }
  </script>
 </body>
