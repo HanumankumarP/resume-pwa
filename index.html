@@ -40,7 +40,7 @@
  <script type="text/javascript">
   if('serviceWorker' in navigator){
   navigator.serviceWorker.register('sw.js', {scope:'/'}).then(reg=>{
-  console.log('registered service worker'reg);
+  console.log('service worker have been registered for scope'+reg.scope);
    catch(error=>{
   console.log('failed to register service worker');
   });
