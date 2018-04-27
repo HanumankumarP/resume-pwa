@@ -37,5 +37,17 @@
     		<div></div>
     	</div>
     </div>
+ <script src="text/javascript">
+  if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js', {scope:'/'}).then(reg=>{
+  console.log('registered service worker'reg);
+   catch(error=>{
+  console.log('failed to register service worker');
+  });
+  });
+  } else {
+  console.log('sorry the browser does not supports service worker');
+  }
+ </script>
 </body>
 </html>
